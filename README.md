@@ -15,4 +15,4 @@ weather-graph.py
 weather-graph2.py
 	draws a graph of temperatures against time for the past month in Fahrenheit.
 
-NOTE: Data may to be recent. 
+NOTE: Data may not be recent. 
