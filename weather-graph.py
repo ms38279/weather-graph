@@ -14,6 +14,7 @@ timestamps=[]
 for record in weather ['items']:
 	temp= record ['ambient_temp']
 	time=record['reading_timestamp']
+	temp= temp * (9/5) +32 # convert Celsius to Fahrenheit
 	temperatures.append(temp)
 	timestamps.append(parser.parse(time))
 
